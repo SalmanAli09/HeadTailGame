@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/pic_1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+    <title>Head Tail Game</title>
+</head>
+<body>
+
+   <div class="container">
+          
+    </div>
+ 
+    <div class="nav">
+        <h1>Heads & Tails Game</h1>
+        <hr color="white" width="70%">
+    </div>
+    <div id="name_taker">
+        <button onclick="nametaker()" id="btn_1">Enter Player's Name</button>
+        <div id="player_1">
+            1) Player Name : &nbsp; &nbsp;<input type="text" id="t1"> <br> <br>
+            2) Player Name : &nbsp; &nbsp;<input type="text" id="t2"> <br> <br>
+            <center><input type="button" value="Enter Names" id="btn_player" onclick="printname()"></center>
+
+        </div>
+        <h1 id="heading1"></h1>
+        <!-- <div id="player_2">
+        </div> -->
+        <h1 id="heading2"></h1>
+    </div>
+    </div>
+    
+    <div class="btn_revolve" id="btn_revolve">
+        <button onclick="playgame()">Click Here To Play</button>
+    </div>
+    <div id="content_cont">
+       <div id="result"></div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
